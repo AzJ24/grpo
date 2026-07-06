@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+
+# Large model weights (exceed GitHub's 100 MB limit; supply out-of-band)
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime outputs
+training_results/
+models/*/AmbigQA/
+wandb/
